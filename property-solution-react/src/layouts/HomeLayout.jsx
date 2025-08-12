@@ -1,12 +1,15 @@
+import React from "react";
+// import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
+import Banner from "../components/Banner";
 
 
 const HomeLayout = () => {
     return (
         <div>
-            <nav>
-                <Navbar></Navbar>
-            </nav>
+            <Navbar></Navbar>
+            <Banner></Banner>
+
         </div>
     );
 };

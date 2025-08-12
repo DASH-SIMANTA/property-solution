@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "title": "Serenity at Whispering Pines Retreat",
+    "code": "DL12653",
+    "address": "3891 Ranchview Dr. Richardson, California",
+    "bedrooms": 5,
+    "baths": 6,
+    "guests": 6,
+    "price": 120,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1505691938895-1758d7feb511"
+  },
+  {
+    "id": 2,
+    "title": "Modern Cliffside Villa",
+    "code": "MC10234",
+    "address": "752 Sunset Blvd, Malibu, California",
+    "bedrooms": 4,
+    "baths": 5,
+    "guests": 8,
+    "price": 350,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c"
+  },
+  {
+    "id": 3,
+    "title": "Coastal Horizon Estate",
+    "code": "CH98521",
+    "address": "142 Ocean Drive, Santa Monica, California",
+    "bedrooms": 6,
+    "baths": 7,
+    "guests": 10,
+    "price": 500,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994"
+  },
+  {
+    "id": 4,
+    "title": "Rustic Lakeview Lodge",
+    "code": "RL56473",
+    "address": "89 Pine Ridge Rd, Lake Tahoe, Nevada",
+    "bedrooms": 5,
+    "baths": 4,
+    "guests": 8,
+    "price": 200,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688"
+  },
+  {
+    "id": 5,
+    "title": "Urban Luxe Penthouse",
+    "code": "UL84329",
+    "address": "300 Main St, San Francisco, California",
+    "bedrooms": 3,
+    "baths": 3,
+    "guests": 6,
+    "price": 420,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1613977257363-707ba9348227"
+  },
+  {
+    "id": 6,
+    "title": "Secluded Mountain Chalet",
+    "code": "SM10987",
+    "address": "120 Aspen Way, Vail, Colorado",
+    "bedrooms": 4,
+    "baths": 5,
+    "guests": 8,
+    "price": 280,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d"
+  },
+  {
+    "id": 7,
+    "title": "Palm Grove Mansion",
+    "code": "PG32415",
+    "address": "95 Palm Street, Miami, Florida",
+    "bedrooms": 7,
+    "baths": 8,
+    "guests": 12,
+    "price": 750,
+    "rating": 5.0,
+    "image": "https://images.unsplash.com/photo-1572120360610-d971b9d7767c"
+  },
+  {
+    "id": 8,
+    "title": "Countryside Vineyard Villa",
+    "code": "CV65982",
+    "address": "214 Wine Country Rd, Napa Valley, California",
+    "bedrooms": 6,
+    "baths": 6,
+    "guests": 10,
+    "price": 480,
+    "rating": 4.9,
+    "image": "https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf"
+  },
+  {
+    "id": 9,
+    "title": "Luxury Desert Oasis",
+    "code": "LD74321",
+    "address": "33 Mirage Blvd, Scottsdale, Arizona",
+    "bedrooms": 5,
+    "baths": 5,
+    "guests": 8,
+    "price": 390,
+    "rating": 4.8,
+    "image": "https://images.unsplash.com/photo-1598928506311-c55ded91a20b"
+  },
+  {
+    "id": 10,
+    "title": "Ocean Breeze Bungalow",
+    "code": "OB19872",
+    "address": "87 Shoreline Dr, Key West, Florida",
+    "bedrooms": 3,
+    "baths": 2,
+    "guests": 5,
+    "price": 250,
+    "rating": 4.7,
+    "image": "https://images.unsplash.com/photo-1600585154526-990dced4db0d"
+  }
+]
