@@ -6,6 +6,7 @@ import PropertyCategory from "../components/PropertyCategory";
 import PropertyCategories from "../components/PropertyCategories";
 import { Outlet } from "react-router-dom";
 import ListMyCity from "../components/ListMyCity";
+import Comparison from "../components/Comparison";
 
 
 const HomeLayout = () => {
@@ -26,6 +27,9 @@ const HomeLayout = () => {
             </main>
             <div>
                 <ListMyCity></ListMyCity>
+            </div>
+            <div>
+                <Comparison></Comparison>
             </div>
             
 
