@@ -1,6 +1,5 @@
 import React from 'react';
 import { SiAirbnb } from "react-icons/si";
-import { MdEditLocationAlt } from "react-icons/md";
 import { MdEditLocation } from "react-icons/md";
 
 

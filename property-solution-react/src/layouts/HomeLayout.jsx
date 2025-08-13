@@ -1,12 +1,10 @@
 import React from "react";
-// import { Outlet } from "react-router-dom";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
-import PropertyCategory from "../components/PropertyCategory";
 import PropertyCategories from "../components/PropertyCategories";
-import { Outlet } from "react-router-dom";
 import ListMyCity from "../components/ListMyCity";
 import Comparison from "../components/Comparison";
+
 
 
 const HomeLayout = () => {
@@ -31,8 +29,6 @@ const HomeLayout = () => {
             <div>
                 <Comparison></Comparison>
             </div>
-            
-
 
         </div>
     );
