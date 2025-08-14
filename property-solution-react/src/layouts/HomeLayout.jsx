@@ -4,6 +4,11 @@ import Banner from "../components/Banner";
 import PropertyCategories from "../components/PropertyCategories";
 import ListMyCity from "../components/ListMyCity";
 import Comparison from "../components/Comparison";
+import InstantBooking from "../components/InstantBooking";
+import Footer from "../components/Footer";
+import CustomerReviews from "../components/CustomerReview";
+import ContactSection from "../components/ContactSection";
+import InstagramShowcase from "../components/InstagramShowcase";
 
 
 
@@ -28,6 +33,21 @@ const HomeLayout = () => {
             </div>
             <div>
                 <Comparison></Comparison>
+            </div>
+            <div>
+                <InstantBooking></InstantBooking>
+            </div>
+            <div>
+                <InstagramShowcase></InstagramShowcase>
+            </div>
+            <div>
+                <CustomerReviews></CustomerReviews>
+            </div>
+            <div>
+                <ContactSection></ContactSection>
+            </div>
+            <div>
+                <Footer></Footer>
             </div>
 
         </div>

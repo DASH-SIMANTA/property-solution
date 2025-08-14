@@ -7,7 +7,7 @@ const PropertyCategories = () => {
 
     useEffect(() => {
 
-        fetch('../../public/property-info.json')
+        fetch('/property-info.json')
             .then(response => response.json())
             .then(data => setPropertyCat(data))
             .catch(error => console.error('Error fetching property:', error));
