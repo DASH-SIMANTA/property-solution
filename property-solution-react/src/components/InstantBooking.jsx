@@ -17,11 +17,11 @@ const InstantBooking = () => {
 
     if (isLoading) {
         content = <h1> Loading posts...</h1>
-    }
-    if (!isLoading && isError) {
-        content = <h1>{error}</h1>
-    }
-    if (!isLoading && !isError && posts.length > 0) {
+    } else if (isError) {
+        content = <h1>Error: {error}</h1>
+    } else if (posts.length === 0) {
+        content = <h1>No properties available</h1>
+    } else {
         content = (
             <div className='bg-slate-50 p-6 rounded-lg px-5'>
               

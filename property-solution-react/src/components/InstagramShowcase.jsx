@@ -39,8 +39,7 @@ const InstagramShowcase = () => {
             {/* Profile Info */}
             <div className="flex items-center gap-4 mb-4">
               <div
-                className={`w-12 h-12 rounded-full flex items-center justify-center ${account.color}`}
-              >
+                className={`w-12 h-12 rounded-full flex items-center justify-center ${account.color}`}>
                 <img
                   src={account.avatar}
                   alt={account.name}

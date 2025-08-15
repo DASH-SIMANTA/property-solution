@@ -12,7 +12,7 @@ import { IoPricetagsOutline } from "react-icons/io5";
 
 const PropertyCategory = ({ p }) => {
     const { id, title, code, address, bedrooms, baths, price, rating, guests, image } = p;
-    console.log(p);
+    // console.log(p);
     return (
         <div className="card bg-base-100 w-96 shadow-sm p-6 bg-white-400">
             <figure className="bg-gray-100 py-8 rounded-2xl">

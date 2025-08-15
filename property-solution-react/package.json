@@ -10,7 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
     "@reduxjs/toolkit": "^2.8.2",
+    "firebase": "^11.10.0",
     "localforage": "^1.10.0",
     "match-sorter": "^8.1.0",
     "react": "^19.1.1",
