@@ -1,4 +1,4 @@
 export const getPosts = async () => {
-    const response =await fetch ('/public/property-info.json');
+    const response =await fetch ('/property-info.json');
     return response.json();
 }
