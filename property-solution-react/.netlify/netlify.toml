@@ -1,0 +1,31 @@
+plugins = []
+functionsDirectory = "/Users/simantadash/Documents/property-solution/property-solution-react/netlify/functions"
+functionsDirectoryOrigin = "config-v1"
+headers = []
+redirects = []
+
+[functions]
+
+[functions."*"]
+
+[build]
+publish = "/Users/simantadash/Documents/property-solution/property-solution-react/dist"
+publishOrigin = "config"
+commandOrigin = "config"
+base = "/Users/simantadash/Documents/property-solution/property-solution-react"
+command = "npm run build"
+functions = "/Users/simantadash/Documents/property-solution/property-solution-react/netlify/functions"
+
+[build.environment]
+
+[build.processing]
+
+[build.processing.css]
+
+[build.processing.html]
+
+[build.processing.images]
+
+[build.processing.js]
+
+[build.services]
