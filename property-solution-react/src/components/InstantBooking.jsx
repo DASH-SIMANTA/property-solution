@@ -32,7 +32,7 @@ const InstantBooking = () => {
                 <p className="text-sm text-slate-300 font-bold text-center mb-8">Book your stay in minutes with properties that guarantee fast responses or direct booking options.</p>
 
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10 w-10/12 ml-36 mr-36">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10 ">
                     {posts.map((post) => (
                         <div key={post.id} className="card bg-base-100 shadow-xl">
                             <figure>

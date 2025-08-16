@@ -19,12 +19,14 @@ const HomeLayout = () => {
                 <Navbar></Navbar>
             </nav>
             
-            <div className="banner w-full h-[400px] bg-blue-300">
+            {/* <div className="banner w-full h-[400px] bg-blue-300"> */}
+            <div className="md:container mx-auto">
                 {/* Banner content */}
                 <Banner></Banner>
             </div>
             
-            <main className="w-fit  mx-auto pt-40 ">
+            {/* <main className="w-fit  mx-auto pt-40 "> */}
+            <main className="md:container mx-auto pt-40">
              {/* Category content */}
                 <PropertyCategories></PropertyCategories>
             </main>
@@ -34,7 +36,7 @@ const HomeLayout = () => {
             <div>
                 <Comparison></Comparison>
             </div>
-            <div>
+            <div className="md:container mx-auto">
                 <InstantBooking></InstantBooking>
             </div>
             <div>
@@ -46,7 +48,7 @@ const HomeLayout = () => {
             <div>
                 <ContactSection></ContactSection>
             </div>
-            <div>
+            <div> 
                 <Footer></Footer>
             </div>
 
