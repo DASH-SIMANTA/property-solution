@@ -14,7 +14,7 @@ import InstagramShowcase from "../components/InstagramShowcase";
 
 const HomeLayout = () => {
     return (
-        <div>
+        <div data-theme="light">
             <nav className="">
                 <Navbar></Navbar>
             </nav>
