@@ -1,8 +1,5 @@
 plugins = []
-functionsDirectory = "/Users/simantadash/Documents/property-solution/property-solution-react/netlify/functions"
-functionsDirectoryOrigin = "config-v1"
 headers = []
-redirects = []
 
 [functions]
 
@@ -10,11 +7,10 @@ redirects = []
 
 [build]
 publish = "/Users/simantadash/Documents/property-solution/property-solution-react/dist"
-publishOrigin = "config"
-commandOrigin = "config"
+publishOrigin = "ui"
+commandOrigin = "ui"
 base = "/Users/simantadash/Documents/property-solution/property-solution-react"
 command = "npm run build"
-functions = "/Users/simantadash/Documents/property-solution/property-solution-react/netlify/functions"
 
 [build.environment]
 
@@ -29,3 +25,15 @@ functions = "/Users/simantadash/Documents/property-solution/property-solution-re
 [build.processing.js]
 
 [build.services]
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200.0
+force = false
+
+[redirects.query]
+
+[redirects.conditions]
+
+[redirects.headers]

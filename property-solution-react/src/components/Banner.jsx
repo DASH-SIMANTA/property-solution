@@ -3,7 +3,7 @@ import bannerImage from '../assets/banner.jpg'; // Assuming you have a banner im
 
 const Banner = () => {
     return (
-        // <div className="absolute top-[78px]  w-[1710px] h-[100px] opacity-100 rounded-[24px] mx-auto bg-cover bg-center">
+       
         <div>
             <div className='h-[100px]'>
                 <img className='h-[500px] w-screen rounded-2xl' src={bannerImage}></img>
@@ -15,12 +15,12 @@ const Banner = () => {
                     <h1 className="mb-5 text-5xl font-bold text-black justify-center">Curated stays across the U.S. — without the platform fees.</h1>
 
 
-                    <div className=' w-auto h-[300px]  justify-center'>
+                    <div className=' w-auto h-[300px] justify-center'>
 
                         <div className="relative mt-6
     lg:absolute lg:left-1/2 lg:translate-y-1/2 lg:-translate-x-1/2 
     bg-white shadow-md rounded-2xl p-4 items-center gap-3 
-    w-[90%] max-w-7xl">
+    w-[100%] max-w-7xl">
                             <div className='justify-items-center md:justify-items-start md:w-fit'>
                                 {/* Instant-ready toggle */}
                                 <label className="label cursor-pointer flex items-center gap-2">
