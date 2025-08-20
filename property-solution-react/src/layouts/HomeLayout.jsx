@@ -14,8 +14,8 @@ import InstagramShowcase from "../components/InstagramShowcase";
 
 const HomeLayout = () => {
     return (
-        <div>
-            <nav className="">
+        <div className="w-[100%]">
+            <nav>
                 <Navbar></Navbar>
             </nav>
             
